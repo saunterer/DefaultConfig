@@ -1,0 +1,8 @@
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -i'
+alias ll='ls -lh'
+alias la='ls -lAh'
+alias dmsg='dmesg --color=always | less -R'
+nohist='unset HISTFILE'
+sshx='ssh -Y -L 5900:localhost:5900'
